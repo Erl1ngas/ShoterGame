@@ -3485,3 +3485,781 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.13-06.09.11:252][314]LogPlayLevel: Display: Destroying online subsystem :Context_44
 [2022.08.13-06.09.11:252][314]LogPlayLevel: Display: Destroying online subsystem :Context_43
 [2022.08.13-06.09.11:252][314]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.08.13-06.12.18:972][621]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.13-06.12.18:983][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.13-06.12.18:983][621]PIE: New page: PIE session: TestingLevel (13 ago. 2022 0:12:18)
+[2022.08.13-06.12.19:015][621]LogPlayLevel: Creating play world package: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel
+[2022.08.13-06.12.19:020][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004547s)
+[2022.08.13-06.12.19:020][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CrazyPeople/Maps/TestingLevel.TestingLevel to /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.004661s)
+[2022.08.13-06.12.19:020][621]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.12.19:020][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.12.19:020][621]LogAIModule: Creating AISystem for world TestingLevel
+[2022.08.13-06.12.19:021][621]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2022.08.13-06.12.19:091][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.08.13-06.12.19:094][621]LogLoad: Game class is 'BP_ThirdPerson_GameMode_C'
+[2022.08.13-06.12.19:095][621]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.12.19
+[2022.08.13-06.12.19:095][621]LogWorld: Bringing up level for play took: 0.001574
+[2022.08.13-06.12.19:096][621]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.08.13-06.12.19:096][621]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.08.13-06.12.19:096][621]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.08.13-06.12.19:096][621]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2022.08.13-06.12.19:096][621]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.12.19:096][621]LogNet: GameNetDriver IpNetDriver_30 IpNetDriver listening on port 17777
+[2022.08.13-06.12.19:096][621]PIE: Server logged in
+[2022.08.13-06.12.19:096][621]PIE: Play in editor total start time 0.113 seconds.
+[2022.08.13-06.12.19:096][621]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.12.19:096][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.12.19:097][621]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2022.08.13-06.12.19:097][621]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.08.13-06.12.19:097][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-06.12.19:097][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-06.12.19:097][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-06.12.19:097][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-06.12.19:097][621]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.13-06.12.19:097][621]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-06.12.19:097][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.13-06.12.19:097][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-06.12.19:098][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-06.12.19:098][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-06.12.19:098][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-06.12.19:101][621]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-06.12.19:128][621]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2022.08.13-06.12.19:129][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-06.12.19:129][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-06.12.19:129][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-06.12.19:129][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.08.13-06.12.19:129][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.08.13-06.12.19:131][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.08.13-06.12.19:131][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.08.13-06.12.19:131][621]LogInit: FAudioDevice initialized.
+[2022.08.13-06.12.19:131][621]LogAudio: Display: Audio Device (ID: 22) registered with world 'Untitled'.
+[2022.08.13-06.12.19:141][621]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2022.08.13-06.12.19:141][621]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.08.13-06.12.19:141][621]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.08.13-06.12.19:141][621]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.12.19:141][621]LogNet: Game client on port 17777, rate 100000
+[2022.08.13-06.12.19:141][621]PIE: Client logged in
+[2022.08.13-06.12.19:142][621]PIE: Play in editor total start time 0.158 seconds.
+[2022.08.13-06.12.19:142][621]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.12.19:142][621]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.12.19:142][621]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2022.08.13-06.12.19:142][621]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.08.13-06.12.19:143][621]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-06.12.19:143][621]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-06.12.19:143][621]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-06.12.19:143][621]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-06.12.19:143][621]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.13-06.12.19:143][621]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-06.12.19:143][621]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.13-06.12.19:143][621]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-06.12.19:143][621]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-06.12.19:143][621]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-06.12.19:143][621]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-06.12.19:145][621]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-06.12.19:170][621]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2022.08.13-06.12.19:170][621]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-06.12.19:170][621]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-06.12.19:170][621]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-06.12.19:171][621]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2022.08.13-06.12.19:172][621]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2022.08.13-06.12.19:173][621]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2022.08.13-06.12.19:173][621]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2022.08.13-06.12.19:173][621]LogInit: FAudioDevice initialized.
+[2022.08.13-06.12.19:173][621]LogAudio: Display: Audio Device (ID: 23) registered with world 'Untitled'.
+[2022.08.13-06.12.19:201][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.12.19:201][621]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2022.08.13-06.12.19:201][621]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.08.13-06.12.19:201][621]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.08.13-06.12.19:201][621]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.12.19:202][621]LogNet: Game client on port 17777, rate 100000
+[2022.08.13-06.12.19:203][621]PIE: Client logged in
+[2022.08.13-06.12.19:205][621]PIE: Play in editor total start time 0.222 seconds.
+[2022.08.13-06.12.19:210][621]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2022.08.13-06.12.19:232][621]LogViewport: Scene viewport resized to 641x480, mode Windowed.
+[2022.08.13-06.12.20:160][730]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63181
+[2022.08.13-06.12.20:160][730]LogHandshake: SendConnectChallenge. Timestamp: 1.197137, Cookie: 012226203140176032222123009189181142015223060021207054050158
+[2022.08.13-06.12.20:160][730]LogHandshake: SendChallengeResponse. Timestamp: 1.197137, Cookie: 012226203140176032222123009189181142015223060021207054050158
+[2022.08.13-06.12.20:168][731]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63181
+[2022.08.13-06.12.20:168][731]LogHandshake: SendChallengeAck. InCookie: 012226203140176032222123009189181142015223060021207054050158
+[2022.08.13-06.12.20:168][731]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63181
+[2022.08.13-06.12.20:169][731]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.12.20:169][731]LogNet: NotifyAcceptedConnection: Name: TestingLevel, TimeStamp: 08/13/22 03:12:20, [UNetConnection] RemoteAddr: 127.0.0.1:63181, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.12.20:169][731]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63181, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.12.20:169][731]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_40, Driver: PendingNetDriver IpNetDriver_31, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.12.20:177][732]LogNet: NotifyAcceptingChannel Control 0 server World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel: Accepted
+[2022.08.13-06.12.20:177][732]LogNet: Remote platform little endian=1
+[2022.08.13-06.12.20:177][732]LogNet: This platform little endian=1
+[2022.08.13-06.12.20:179][732]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2022.08.13-06.12.20:185][733]LogNet: Login request: ?Name=Razorback007-F2B377EA4C2973161DF841B2C10D5C06 userId: NULL:Razorback007-F2B377EA4C2973161DF841B2C10D5C06 platform: NULL
+[2022.08.13-06.12.20:185][733]LogNet: Welcomed by server (Level: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel, Game: /Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C)
+[2022.08.13-06.12.20:186][733]LogLoad: LoadMap: 127.0.0.1:17777/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel?game=/Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C
+[2022.08.13-06.12.20:186][733]LogWorld: BeginTearingDown for /Temp/Untitled_21
+[2022.08.13-06.12.20:186][733]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.12.20:186][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.12.20:255][733]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.13-06.12.20:258][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.08.13-06.12.20:264][733]LogAudio: Display: Audio Device (ID: 22) registered with world 'TestingLevel'.
+[2022.08.13-06.12.20:264][733]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.12.20:264][733]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.12.20:265][733]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2022.08.13-06.12.20:266][733]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_1_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.12.20
+[2022.08.13-06.12.20:266][733]LogWorld: Bringing up level for play took: 0.000970
+[2022.08.13-06.12.20:266][733]LogLoad: Took 0.080721 seconds to LoadMap(/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel)
+[2022.08.13-06.12.20:275][734]LogNet: Client netspeed is 100000
+[2022.08.13-06.12.20:275][734]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=Razorback007-F2B377EA4C2973161DF841B2C10D5C06?SplitscreenCount=1
+[2022.08.13-06.12.20:275][734]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.12.20:277][734]LogNet: Join succeeded: Razorback007-F2B377E
+[2022.08.13-06.12.20:277][734]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63182
+[2022.08.13-06.12.20:277][734]LogHandshake: SendConnectChallenge. Timestamp: 1.311911, Cookie: 000016139213041169089033169183207034104215184140025165000119
+[2022.08.13-06.12.20:281][734]LogHandshake: SendChallengeResponse. Timestamp: 1.311911, Cookie: 000016139213041169089033169183207034104215184140025165000119
+[2022.08.13-06.12.20:363][735]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63182
+[2022.08.13-06.12.20:363][735]LogHandshake: SendChallengeAck. InCookie: 000016139213041169089033169183207034104215184140025165000119
+[2022.08.13-06.12.20:363][735]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63182
+[2022.08.13-06.12.20:363][735]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.12.20:363][735]LogNet: NotifyAcceptedConnection: Name: TestingLevel, TimeStamp: 08/13/22 03:12:20, [UNetConnection] RemoteAddr: 127.0.0.1:63182, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.12.20:363][735]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63182, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.12.20:368][735]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_41, Driver: PendingNetDriver IpNetDriver_32, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.12.20:388][736]LogNet: NotifyAcceptingChannel Control 0 server World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel: Accepted
+[2022.08.13-06.12.20:388][736]LogNet: Remote platform little endian=1
+[2022.08.13-06.12.20:388][736]LogNet: This platform little endian=1
+[2022.08.13-06.12.20:390][736]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.12.20:393][736]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2022.08.13-06.12.20:412][737]LogNet: Login request: ?Name=Razorback007-266F256C4EEDA7E94D379F900EA8C0AA userId: NULL:Razorback007-266F256C4EEDA7E94D379F900EA8C0AA platform: NULL
+[2022.08.13-06.12.20:416][737]LogNet: Welcomed by server (Level: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel, Game: /Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C)
+[2022.08.13-06.12.20:416][737]LogLoad: LoadMap: 127.0.0.1:17777/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel?game=/Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C
+[2022.08.13-06.12.20:416][737]LogWorld: BeginTearingDown for /Temp/Untitled_22
+[2022.08.13-06.12.20:416][737]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.12.20:416][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.12.20:490][737]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.13-06.12.20:493][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.08.13-06.12.20:500][737]LogAudio: Display: Audio Device (ID: 23) registered with world 'TestingLevel'.
+[2022.08.13-06.12.20:500][737]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.12.20:500][737]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.12.20:500][737]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2022.08.13-06.12.20:501][737]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_2_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.12.20
+[2022.08.13-06.12.20:501][737]LogWorld: Bringing up level for play took: 0.001019
+[2022.08.13-06.12.20:502][737]LogLoad: Took 0.085484 seconds to LoadMap(/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel)
+[2022.08.13-06.12.20:511][738]LogNet: Client netspeed is 100000
+[2022.08.13-06.12.20:511][738]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=Razorback007-266F256C4EEDA7E94D379F900EA8C0AA?SplitscreenCount=1
+[2022.08.13-06.12.20:512][738]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.12.20:513][738]LogNet: Join succeeded: Razorback007-266F256
+[2022.08.13-06.12.20:516][738]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.12.20:660][741]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.12.21:345][782]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.12.24:200][958]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.12.24:200][958]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.08.13-06.12.24:200][958]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.08.13-06.12.27:457][156]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.12.27:457][156]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.12.27:459][156]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.12.27:459][156]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.12.28:082][193]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.12.28:082][193]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.12.28:084][193]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.12.28:084][193]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.12.31:942][431]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.12.31:942][431]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.12.32:350][455]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.12.32:351][455]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.12.33:030][495]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.12.33:030][495]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.12.33:425][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.12.33:425][517]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_2_TestingLevel
+[2022.08.13-06.12.33:426][517]LogSlate: Window 'CrazyPeople Preview [NetMode: Client 2]  (64-bit/SM5)' being destroyed
+[2022.08.13-06.12.33:435][517]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.12.33:436][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.12.33:444][517]LogNet: World NetDriver shutdown IpNetDriver_32 [GameNetDriver]
+[2022.08.13-06.12.33:444][517]LogNet: DestroyNamedNetDriver IpNetDriver_32 [GameNetDriver]
+[2022.08.13-06.12.33:444][517]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_41, Driver: GameNetDriver IpNetDriver_32, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-266F256C4EEDA7E94D379F900EA8C0AA, Channels: 23, Time: 2022.08.13-06.12.33
+[2022.08.13-06.12.33:444][517]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_41, Driver: GameNetDriver IpNetDriver_32, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-266F256C4EEDA7E94D379F900EA8C0AA
+[2022.08.13-06.12.33:445][517]LogExit: GameNetDriver IpNetDriver_32 shut down
+[2022.08.13-06.12.33:446][517]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_1_TestingLevel
+[2022.08.13-06.12.33:446][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.12.33:446][517]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.12.33:447][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.12.33:455][517]LogNet: World NetDriver shutdown IpNetDriver_31 [GameNetDriver]
+[2022.08.13-06.12.33:455][517]LogNet: DestroyNamedNetDriver IpNetDriver_31 [GameNetDriver]
+[2022.08.13-06.12.33:455][517]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_40, Driver: GameNetDriver IpNetDriver_31, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-F2B377EA4C2973161DF841B2C10D5C06, Channels: 23, Time: 2022.08.13-06.12.33
+[2022.08.13-06.12.33:455][517]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_40, Driver: GameNetDriver IpNetDriver_31, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-F2B377EA4C2973161DF841B2C10D5C06
+[2022.08.13-06.12.33:456][517]LogExit: GameNetDriver IpNetDriver_31 shut down
+[2022.08.13-06.12.33:457][517]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel
+[2022.08.13-06.12.33:457][517]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.12.33:457][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.12.33:458][517]LogNet: World NetDriver shutdown IpNetDriver_30 [GameNetDriver]
+[2022.08.13-06.12.33:458][517]LogNet: DestroyNamedNetDriver IpNetDriver_30 [GameNetDriver]
+[2022.08.13-06.12.33:458][517]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63182, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-266F256C4EEDA7E94D379F900EA8C0AA
+[2022.08.13-06.12.33:458][517]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63182, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-266F256C4EEDA7E94D379F900EA8C0AA, Channels: 23, Time: 2022.08.13-06.12.33
+[2022.08.13-06.12.33:458][517]LogNet: UNetConnection::Close: CloseReason:
+[2022.08.13-06.12.33:458][517]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.08.13-06.12.33:458][517]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63182, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-266F256C4EEDA7E94D379F900EA8C0AA
+[2022.08.13-06.12.33:458][517]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63181, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-F2B377EA4C2973161DF841B2C10D5C06
+[2022.08.13-06.12.33:458][517]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63181, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-F2B377EA4C2973161DF841B2C10D5C06, Channels: 23, Time: 2022.08.13-06.12.33
+[2022.08.13-06.12.33:458][517]LogNet: UNetConnection::Close: CloseReason:
+[2022.08.13-06.12.33:458][517]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.08.13-06.12.33:458][517]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63181, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_30, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-F2B377EA4C2973161DF841B2C10D5C06
+[2022.08.13-06.12.33:458][517]LogExit: GameNetDriver IpNetDriver_30 shut down
+[2022.08.13-06.12.33:459][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.13-06.12.33:468][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.12.33:542][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.12.33:542][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.08.13-06.12.33:543][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.08.13-06.12.33:548][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.08.13-06.12.33:549][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.08.13-06.12.33:559][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.08.13-06.12.33:598][518]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.08.13-06.12.33:598][518]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2022.08.13-06.12.33:598][518]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2022.08.13-06.15.24:951][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.08.13-06.15.24:968][515]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CrazyPeople/Maps/TestingLevel_Auto5
+[2022.08.13-06.15.24:968][515]LogSavePackage: Moving '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/TestingLevel_Auto5EFB05BEB401105E005F78B8A739CEF3D.tmp' to '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/Autosaves/Game/CrazyPeople/Maps/TestingLevel_Auto5.umap'
+[2022.08.13-06.15.24:975][515]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/CrazyPeople/Maps/TestingLevel' took 0.101
+[2022.08.13-06.15.24:975][515]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.101
+[2022.08.13-06.15.24:976][515]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot] ([2] browsable assets)...
+[2022.08.13-06.15.24:978][515]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot.WB_InventorySlot]
+[2022.08.13-06.15.24:978][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot]
+[2022.08.13-06.15.25:036][515]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot_Auto5
+[2022.08.13-06.15.25:036][515]LogSavePackage: Moving '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/WB_InventorySlot_Auto5F230A13144911D822B78BEABA74D719D.tmp' to '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/Autosaves/Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot_Auto5.uasset'
+[2022.08.13-06.15.25:038][515]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CrazyPeople/WidgedBlueprint/WB_ItemMenu] ([2] browsable assets)...
+[2022.08.13-06.15.25:038][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/CrazyPeople/WidgedBlueprint/WB_ItemMenu]
+[2022.08.13-06.15.25:060][515]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CrazyPeople/WidgedBlueprint/WB_ItemMenu_Auto5
+[2022.08.13-06.15.25:061][515]LogSavePackage: Moving '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/WB_ItemMenu_Auto5589517834A7D1D8D7214B4AD92AA04EE.tmp' to '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/Autosaves/Game/CrazyPeople/WidgedBlueprint/WB_ItemMenu_Auto5.uasset'
+[2022.08.13-06.15.25:062][515]LogFileHelpers: Auto-saving content packages took 0.087
+[2022.08.13-06.17.56:154][373]BlueprintLog: New page: Compile WB_InventorySlot
+[2022.08.13-06.17.56:322][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2022.08.13-06.17.57:322][448]LogSavePackage: Moving output files for package: /Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot
+[2022.08.13-06.17.57:322][448]LogSavePackage: Moving '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/WB_InventorySlot3F8E36CA4603F11D67AA72989ADAB0C1.tmp' to '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Content/CrazyPeople/WidgedBlueprint/WB_InventorySlot.uasset'
+[2022.08.13-06.17.57:340][448]AssetCheck: New page: Asset Save: WB_InventorySlot
+[2022.08.13-06.17.57:340][448]LogContentValidation: Display: Validating WidgetBlueprint /Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot.WB_InventorySlot
+[2022.08.13-06.17.59:338][635]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.13-06.17.59:348][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.13-06.17.59:349][635]PIE: New page: PIE session: TestingLevel (13 ago. 2022 0:17:59)
+[2022.08.13-06.17.59:349][635]LogPlayLevel: Creating play world package: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel
+[2022.08.13-06.17.59:353][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004579s)
+[2022.08.13-06.17.59:353][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CrazyPeople/Maps/TestingLevel.TestingLevel to /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.004660s)
+[2022.08.13-06.17.59:353][635]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.17.59:353][635]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.17.59:354][635]LogAIModule: Creating AISystem for world TestingLevel
+[2022.08.13-06.17.59:354][635]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2022.08.13-06.17.59:429][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.08.13-06.17.59:434][635]LogLoad: Game class is 'BP_ThirdPerson_GameMode_C'
+[2022.08.13-06.17.59:435][635]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.17.59
+[2022.08.13-06.17.59:435][635]LogWorld: Bringing up level for play took: 0.001507
+[2022.08.13-06.17.59:436][635]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.08.13-06.17.59:436][635]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.08.13-06.17.59:436][635]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.08.13-06.17.59:436][635]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2022.08.13-06.17.59:436][635]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.17.59:436][635]LogNet: GameNetDriver IpNetDriver_33 IpNetDriver listening on port 17777
+[2022.08.13-06.17.59:436][635]PIE: Server logged in
+[2022.08.13-06.17.59:436][635]PIE: Play in editor total start time 0.088 seconds.
+[2022.08.13-06.17.59:436][635]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.17.59:436][635]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.17.59:437][635]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2022.08.13-06.17.59:437][635]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.08.13-06.17.59:437][635]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-06.17.59:437][635]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-06.17.59:437][635]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-06.17.59:437][635]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-06.17.59:437][635]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.13-06.17.59:437][635]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-06.17.59:437][635]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.13-06.17.59:437][635]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-06.17.59:437][635]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-06.17.59:437][635]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-06.17.59:437][635]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-06.17.59:439][635]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-06.17.59:467][635]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2022.08.13-06.17.59:468][635]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-06.17.59:468][635]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-06.17.59:468][635]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-06.17.59:468][635]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.08.13-06.17.59:469][635]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2022.08.13-06.17.59:470][635]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.08.13-06.17.59:470][635]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.08.13-06.17.59:470][635]LogInit: FAudioDevice initialized.
+[2022.08.13-06.17.59:470][635]LogAudio: Display: Audio Device (ID: 24) registered with world 'Untitled'.
+[2022.08.13-06.17.59:480][635]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2022.08.13-06.17.59:481][635]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.08.13-06.17.59:481][635]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.08.13-06.17.59:481][635]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.17.59:481][635]LogNet: Game client on port 17777, rate 100000
+[2022.08.13-06.17.59:481][635]PIE: Client logged in
+[2022.08.13-06.17.59:481][635]PIE: Play in editor total start time 0.133 seconds.
+[2022.08.13-06.17.59:482][635]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.17.59:482][635]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.17.59:482][635]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2022.08.13-06.17.59:482][635]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.08.13-06.17.59:482][635]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-06.17.59:482][635]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-06.17.59:482][635]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-06.17.59:482][635]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-06.17.59:482][635]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.13-06.17.59:482][635]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-06.17.59:482][635]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.13-06.17.59:482][635]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-06.17.59:483][635]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-06.17.59:483][635]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-06.17.59:483][635]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-06.17.59:485][635]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-06.17.59:509][635]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2022.08.13-06.17.59:509][635]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-06.17.59:509][635]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-06.17.59:509][635]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-06.17.59:510][635]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.08.13-06.17.59:510][635]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.08.13-06.17.59:512][635]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.08.13-06.17.59:512][635]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.08.13-06.17.59:512][635]LogInit: FAudioDevice initialized.
+[2022.08.13-06.17.59:512][635]LogAudio: Display: Audio Device (ID: 25) registered with world 'Untitled'.
+[2022.08.13-06.17.59:540][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.17.59:541][635]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2022.08.13-06.17.59:541][635]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.08.13-06.17.59:541][635]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.08.13-06.17.59:541][635]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.17.59:541][635]LogNet: Game client on port 17777, rate 100000
+[2022.08.13-06.17.59:543][635]PIE: Client logged in
+[2022.08.13-06.17.59:544][635]PIE: Play in editor total start time 0.196 seconds.
+[2022.08.13-06.17.59:548][635]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2022.08.13-06.17.59:566][635]LogViewport: Scene viewport resized to 641x480, mode Windowed.
+[2022.08.13-06.18.00:503][745]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54927
+[2022.08.13-06.18.00:503][745]LogHandshake: SendConnectChallenge. Timestamp: 1.174322, Cookie: 133236221241187212081036255004217034058045028207126202226097
+[2022.08.13-06.18.00:504][745]LogHandshake: SendChallengeResponse. Timestamp: 1.174322, Cookie: 133236221241187212081036255004217034058045028207126202226097
+[2022.08.13-06.18.00:512][746]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54927
+[2022.08.13-06.18.00:512][746]LogHandshake: SendChallengeAck. InCookie: 133236221241187212081036255004217034058045028207126202226097
+[2022.08.13-06.18.00:512][746]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54927
+[2022.08.13-06.18.00:512][746]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.18.00:512][746]LogNet: NotifyAcceptedConnection: Name: TestingLevel, TimeStamp: 08/13/22 03:18:00, [UNetConnection] RemoteAddr: 127.0.0.1:54927, Name: IpConnection_46, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.18.00:512][746]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54927, Name: IpConnection_46, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.18.00:513][746]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_44, Driver: PendingNetDriver IpNetDriver_34, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.18.00:519][747]LogNet: NotifyAcceptingChannel Control 0 server World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel: Accepted
+[2022.08.13-06.18.00:520][747]LogNet: Remote platform little endian=1
+[2022.08.13-06.18.00:520][747]LogNet: This platform little endian=1
+[2022.08.13-06.18.00:522][747]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2022.08.13-06.18.00:528][748]LogNet: Login request: ?Name=Razorback007-4DDAE2174A96EE3FADCB879AB908B7DB userId: NULL:Razorback007-4DDAE2174A96EE3FADCB879AB908B7DB platform: NULL
+[2022.08.13-06.18.00:529][748]LogNet: Welcomed by server (Level: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel, Game: /Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C)
+[2022.08.13-06.18.00:529][748]LogLoad: LoadMap: 127.0.0.1:17777/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel?game=/Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C
+[2022.08.13-06.18.00:529][748]LogWorld: BeginTearingDown for /Temp/Untitled_23
+[2022.08.13-06.18.00:529][748]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.18.00:529][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.18.00:599][748]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.13-06.18.00:601][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.08.13-06.18.00:608][748]LogAudio: Display: Audio Device (ID: 24) registered with world 'TestingLevel'.
+[2022.08.13-06.18.00:608][748]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.18.00:608][748]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.18.00:609][748]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2022.08.13-06.18.00:610][748]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_1_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.18.00
+[2022.08.13-06.18.00:610][748]LogWorld: Bringing up level for play took: 0.001019
+[2022.08.13-06.18.00:610][748]LogLoad: Took 0.080757 seconds to LoadMap(/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel)
+[2022.08.13-06.18.00:622][749]LogNet: Client netspeed is 100000
+[2022.08.13-06.18.00:622][749]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=Razorback007-4DDAE2174A96EE3FADCB879AB908B7DB?SplitscreenCount=1
+[2022.08.13-06.18.00:622][749]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.18.00:624][749]LogNet: Join succeeded: Razorback007-4DDAE21
+[2022.08.13-06.18.00:624][749]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54928
+[2022.08.13-06.18.00:624][749]LogHandshake: SendConnectChallenge. Timestamp: 1.292689, Cookie: 213183182103154097239096029144198008178155003078176186192129
+[2022.08.13-06.18.00:627][749]LogHandshake: SendChallengeResponse. Timestamp: 1.292689, Cookie: 213183182103154097239096029144198008178155003078176186192129
+[2022.08.13-06.18.00:708][750]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54928
+[2022.08.13-06.18.00:708][750]LogHandshake: SendChallengeAck. InCookie: 213183182103154097239096029144198008178155003078176186192129
+[2022.08.13-06.18.00:708][750]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54928
+[2022.08.13-06.18.00:708][750]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.18.00:708][750]LogNet: NotifyAcceptedConnection: Name: TestingLevel, TimeStamp: 08/13/22 03:18:00, [UNetConnection] RemoteAddr: 127.0.0.1:54928, Name: IpConnection_47, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.18.00:708][750]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54928, Name: IpConnection_47, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.18.00:713][750]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_45, Driver: PendingNetDriver IpNetDriver_35, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.18.00:733][751]LogNet: NotifyAcceptingChannel Control 0 server World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel: Accepted
+[2022.08.13-06.18.00:733][751]LogNet: Remote platform little endian=1
+[2022.08.13-06.18.00:733][751]LogNet: This platform little endian=1
+[2022.08.13-06.18.00:734][751]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.18.00:737][751]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2022.08.13-06.18.00:755][752]LogNet: Login request: ?Name=Razorback007-0145F01D484253E453C4B29265CAF64C userId: NULL:Razorback007-0145F01D484253E453C4B29265CAF64C platform: NULL
+[2022.08.13-06.18.00:761][752]LogNet: Welcomed by server (Level: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel, Game: /Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C)
+[2022.08.13-06.18.00:761][752]LogLoad: LoadMap: 127.0.0.1:17777/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel?game=/Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C
+[2022.08.13-06.18.00:761][752]LogWorld: BeginTearingDown for /Temp/Untitled_24
+[2022.08.13-06.18.00:761][752]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.18.00:761][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.18.00:828][752]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.13-06.18.00:830][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.08.13-06.18.00:837][752]LogAudio: Display: Audio Device (ID: 25) registered with world 'TestingLevel'.
+[2022.08.13-06.18.00:837][752]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.18.00:837][752]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.18.00:837][752]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2022.08.13-06.18.00:839][752]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_2_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.18.00
+[2022.08.13-06.18.00:839][752]LogWorld: Bringing up level for play took: 0.000999
+[2022.08.13-06.18.00:839][752]LogLoad: Took 0.077825 seconds to LoadMap(/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel)
+[2022.08.13-06.18.00:849][753]LogNet: Client netspeed is 100000
+[2022.08.13-06.18.00:849][753]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=Razorback007-0145F01D484253E453C4B29265CAF64C?SplitscreenCount=1
+[2022.08.13-06.18.00:849][753]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.18.00:851][753]LogNet: Join succeeded: Razorback007-0145F01
+[2022.08.13-06.18.00:855][753]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.18.00:993][756]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.18.01:666][797]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.18.03:351][901]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to invalid object from client: PathName: StaticMesh, ObjOuter: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel:PersistentLevel.BP_Revolver_C_1 
+[2022.08.13-06.18.08:944][249]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.08:944][249]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.08.13-06.18.08:944][249]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.08.13-06.18.15:577][647]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.15:577][647]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.15:578][647]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.15:578][647]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.18:896][844]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.18:896][844]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.19:862][901]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.19:862][901]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.21:173][978]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.21:173][978]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.21:174][978]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.21:174][978]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.21:636][  5]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.21:636][  5]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.25:567][239]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.25:567][239]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.27:299][343]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.27:299][343]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.27:300][343]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.27:300][343]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.27:780][371]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.27:780][371]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.35:355][823]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.35:356][823]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.37:450][949]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.37:450][949]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.38:318][  2]LogBlueprintUserMessages: [AC_InventoryComponent] Client 1: 30.0
+[2022.08.13-06.18.38:516][ 14]LogBlueprintUserMessages: [AC_InventoryComponent] Client 1: 60.0
+[2022.08.13-06.18.38:667][ 23]LogBlueprintUserMessages: [AC_InventoryComponent] Client 1: 90.0
+[2022.08.13-06.18.38:819][ 32]LogBlueprintUserMessages: [AC_InventoryComponent] Client 1: 120.0
+[2022.08.13-06.18.39:103][ 49]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.39:103][ 49]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.42:404][248]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.42:404][248]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.42:405][248]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.42:405][248]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.44:604][380]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.44:604][380]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.48:956][640]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.48:956][640]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.52:274][839]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.18.52:274][839]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.18.52:275][839]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.18.52:275][839]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.18.54:616][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.18.54:616][978]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_2_TestingLevel
+[2022.08.13-06.18.54:616][978]LogSlate: Window 'CrazyPeople Preview [NetMode: Client 2]  (64-bit/SM5)' being destroyed
+[2022.08.13-06.18.54:618][978]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.18.54:619][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.18.54:629][978]LogNet: World NetDriver shutdown IpNetDriver_35 [GameNetDriver]
+[2022.08.13-06.18.54:629][978]LogNet: DestroyNamedNetDriver IpNetDriver_35 [GameNetDriver]
+[2022.08.13-06.18.54:629][978]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_45, Driver: GameNetDriver IpNetDriver_35, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-0145F01D484253E453C4B29265CAF64C, Channels: 19, Time: 2022.08.13-06.18.54
+[2022.08.13-06.18.54:629][978]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_45, Driver: GameNetDriver IpNetDriver_35, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-0145F01D484253E453C4B29265CAF64C
+[2022.08.13-06.18.54:629][978]LogExit: GameNetDriver IpNetDriver_35 shut down
+[2022.08.13-06.18.54:630][978]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_1_TestingLevel
+[2022.08.13-06.18.54:631][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.18.54:631][978]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.18.54:631][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.18.54:640][978]LogNet: World NetDriver shutdown IpNetDriver_34 [GameNetDriver]
+[2022.08.13-06.18.54:640][978]LogNet: DestroyNamedNetDriver IpNetDriver_34 [GameNetDriver]
+[2022.08.13-06.18.54:640][978]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_44, Driver: GameNetDriver IpNetDriver_34, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-4DDAE2174A96EE3FADCB879AB908B7DB, Channels: 19, Time: 2022.08.13-06.18.54
+[2022.08.13-06.18.54:640][978]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_44, Driver: GameNetDriver IpNetDriver_34, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-4DDAE2174A96EE3FADCB879AB908B7DB
+[2022.08.13-06.18.54:641][978]LogExit: GameNetDriver IpNetDriver_34 shut down
+[2022.08.13-06.18.54:642][978]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel
+[2022.08.13-06.18.54:642][978]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.18.54:643][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.18.54:643][978]LogNet: World NetDriver shutdown IpNetDriver_33 [GameNetDriver]
+[2022.08.13-06.18.54:643][978]LogNet: DestroyNamedNetDriver IpNetDriver_33 [GameNetDriver]
+[2022.08.13-06.18.54:643][978]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:54928, Name: IpConnection_47, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-0145F01D484253E453C4B29265CAF64C
+[2022.08.13-06.18.54:643][978]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54928, Name: IpConnection_47, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-0145F01D484253E453C4B29265CAF64C, Channels: 19, Time: 2022.08.13-06.18.54
+[2022.08.13-06.18.54:643][978]LogNet: UNetConnection::Close: CloseReason:
+[2022.08.13-06.18.54:643][978]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.08.13-06.18.54:643][978]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54928, Name: IpConnection_47, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-0145F01D484253E453C4B29265CAF64C
+[2022.08.13-06.18.54:643][978]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:54927, Name: IpConnection_46, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-4DDAE2174A96EE3FADCB879AB908B7DB
+[2022.08.13-06.18.54:643][978]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54927, Name: IpConnection_46, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-4DDAE2174A96EE3FADCB879AB908B7DB, Channels: 19, Time: 2022.08.13-06.18.54
+[2022.08.13-06.18.54:643][978]LogNet: UNetConnection::Close: CloseReason:
+[2022.08.13-06.18.54:643][978]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.08.13-06.18.54:643][978]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54927, Name: IpConnection_46, Driver: GameNetDriver IpNetDriver_33, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-4DDAE2174A96EE3FADCB879AB908B7DB
+[2022.08.13-06.18.54:644][978]LogExit: GameNetDriver IpNetDriver_33 shut down
+[2022.08.13-06.18.54:647][978]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.13-06.18.54:656][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.18.54:728][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.18.54:728][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.08.13-06.18.54:731][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.08.13-06.18.54:735][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.08.13-06.18.54:736][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.08.13-06.18.54:746][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.08.13-06.18.54:771][979]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2022.08.13-06.18.54:771][979]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2022.08.13-06.18.54:771][979]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2022.08.13-06.20.10:109][229]BlueprintLog: New page: Compile WB_InventorySlot
+[2022.08.13-06.20.10:281][229]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.08.13-06.20.10:852][263]LogSavePackage: Moving output files for package: /Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot
+[2022.08.13-06.20.10:853][263]LogSavePackage: Moving '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/WB_InventorySlot71A13C0A489EC46914F810837F7A5497.tmp' to '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Content/CrazyPeople/WidgedBlueprint/WB_InventorySlot.uasset'
+[2022.08.13-06.20.10:870][263]AssetCheck: New page: Asset Save: WB_InventorySlot
+[2022.08.13-06.20.10:870][263]LogContentValidation: Display: Validating WidgetBlueprint /Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot.WB_InventorySlot
+[2022.08.13-06.20.14:961][685]LogSlate: Window 'Color Picker' being destroyed
+[2022.08.13-06.21.06:746][297]LogSlate: Window 'Color Picker' being destroyed
+[2022.08.13-06.21.08:649][509]BlueprintLog: New page: Compile WB_InventorySlot
+[2022.08.13-06.21.08:811][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.08.13-06.21.09:464][548]LogSavePackage: Moving output files for package: /Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot
+[2022.08.13-06.21.09:465][548]LogSavePackage: Moving '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Saved/WB_InventorySlotE27F401F4CF5A703601F23AA20931A00.tmp' to '../../../../../../Users/germa/Documents/Unreal Projects/CrazyPeople/Content/CrazyPeople/WidgedBlueprint/WB_InventorySlot.uasset'
+[2022.08.13-06.21.09:483][548]AssetCheck: New page: Asset Save: WB_InventorySlot
+[2022.08.13-06.21.09:483][548]LogContentValidation: Display: Validating WidgetBlueprint /Game/CrazyPeople/WidgedBlueprint/WB_InventorySlot.WB_InventorySlot
+[2022.08.13-06.23.19:285][384]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.13-06.23.19:294][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.13-06.23.19:294][384]PIE: New page: PIE session: TestingLevel (13 ago. 2022 0:23:19)
+[2022.08.13-06.23.19:326][384]LogPlayLevel: Creating play world package: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel
+[2022.08.13-06.23.19:331][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005534s)
+[2022.08.13-06.23.19:331][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CrazyPeople/Maps/TestingLevel.TestingLevel to /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel (0.005780s)
+[2022.08.13-06.23.19:331][384]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.23.19:331][384]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.23.19:332][384]LogAIModule: Creating AISystem for world TestingLevel
+[2022.08.13-06.23.19:332][384]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2022.08.13-06.23.19:405][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.08.13-06.23.19:409][384]LogLoad: Game class is 'BP_ThirdPerson_GameMode_C'
+[2022.08.13-06.23.19:412][384]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.23.19
+[2022.08.13-06.23.19:412][384]LogWorld: Bringing up level for play took: 0.002622
+[2022.08.13-06.23.19:413][384]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.08.13-06.23.19:413][384]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.08.13-06.23.19:413][384]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.08.13-06.23.19:413][384]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2022.08.13-06.23.19:413][384]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.23.19:413][384]LogNet: GameNetDriver IpNetDriver_36 IpNetDriver listening on port 17777
+[2022.08.13-06.23.19:413][384]PIE: Server logged in
+[2022.08.13-06.23.19:413][384]PIE: Play in editor total start time 0.119 seconds.
+[2022.08.13-06.23.19:413][384]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.23.19:413][384]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.23.19:414][384]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2022.08.13-06.23.19:414][384]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.08.13-06.23.19:414][384]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-06.23.19:414][384]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-06.23.19:414][384]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-06.23.19:414][384]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-06.23.19:414][384]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.13-06.23.19:414][384]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-06.23.19:414][384]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.13-06.23.19:414][384]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-06.23.19:414][384]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-06.23.19:414][384]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-06.23.19:414][384]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-06.23.19:416][384]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-06.23.19:445][384]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2022.08.13-06.23.19:446][384]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-06.23.19:446][384]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-06.23.19:446][384]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-06.23.19:447][384]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2022.08.13-06.23.19:447][384]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2022.08.13-06.23.19:448][384]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2022.08.13-06.23.19:448][384]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2022.08.13-06.23.19:448][384]LogInit: FAudioDevice initialized.
+[2022.08.13-06.23.19:448][384]LogAudio: Display: Audio Device (ID: 26) registered with world 'Untitled'.
+[2022.08.13-06.23.19:462][384]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2022.08.13-06.23.19:462][384]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.08.13-06.23.19:462][384]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.08.13-06.23.19:462][384]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.23.19:462][384]LogNet: Game client on port 17777, rate 100000
+[2022.08.13-06.23.19:462][384]PIE: Client logged in
+[2022.08.13-06.23.19:463][384]PIE: Play in editor total start time 0.169 seconds.
+[2022.08.13-06.23.19:463][384]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.23.19:463][384]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.23.19:464][384]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2022.08.13-06.23.19:464][384]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.08.13-06.23.19:464][384]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.13-06.23.19:464][384]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.13-06.23.19:464][384]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.13-06.23.19:464][384]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.13-06.23.19:464][384]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.13-06.23.19:464][384]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.13-06.23.19:464][384]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.13-06.23.19:464][384]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.13-06.23.19:464][384]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.13-06.23.19:464][384]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.13-06.23.19:464][384]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.13-06.23.19:466][384]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.13-06.23.19:490][384]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2022.08.13-06.23.19:491][384]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.13-06.23.19:491][384]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.13-06.23.19:491][384]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.13-06.23.19:492][384]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2022.08.13-06.23.19:492][384]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2022.08.13-06.23.19:493][384]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2022.08.13-06.23.19:493][384]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2022.08.13-06.23.19:493][384]LogInit: FAudioDevice initialized.
+[2022.08.13-06.23.19:493][384]LogAudio: Display: Audio Device (ID: 27) registered with world 'Untitled'.
+[2022.08.13-06.23.19:518][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.23.19:519][384]LogNet: Browse: 127.0.0.1:17777/Game/ThirdPerson/Maps/ThirdPersonMap
+[2022.08.13-06.23.19:519][384]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.08.13-06.23.19:519][384]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.08.13-06.23.19:519][384]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.23.19:519][384]LogNet: Game client on port 17777, rate 100000
+[2022.08.13-06.23.19:521][384]PIE: Client logged in
+[2022.08.13-06.23.19:523][384]PIE: Play in editor total start time 0.228 seconds.
+[2022.08.13-06.23.19:528][384]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2022.08.13-06.23.19:547][384]LogViewport: Scene viewport resized to 641x480, mode Windowed.
+[2022.08.13-06.23.20:484][494]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63587
+[2022.08.13-06.23.20:484][494]LogHandshake: SendConnectChallenge. Timestamp: 1.206987, Cookie: 200233163005158224202216050039151052075103063044024076119154
+[2022.08.13-06.23.20:484][494]LogHandshake: SendChallengeResponse. Timestamp: 1.206987, Cookie: 200233163005158224202216050039151052075103063044024076119154
+[2022.08.13-06.23.20:492][495]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63587
+[2022.08.13-06.23.20:492][495]LogHandshake: SendChallengeAck. InCookie: 200233163005158224202216050039151052075103063044024076119154
+[2022.08.13-06.23.20:492][495]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63587
+[2022.08.13-06.23.20:493][495]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.23.20:493][495]LogNet: NotifyAcceptedConnection: Name: TestingLevel, TimeStamp: 08/13/22 03:23:20, [UNetConnection] RemoteAddr: 127.0.0.1:63587, Name: IpConnection_50, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.23.20:493][495]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63587, Name: IpConnection_50, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.23.20:493][495]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_48, Driver: PendingNetDriver IpNetDriver_37, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.23.20:501][496]LogNet: NotifyAcceptingChannel Control 0 server World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel: Accepted
+[2022.08.13-06.23.20:501][496]LogNet: Remote platform little endian=1
+[2022.08.13-06.23.20:501][496]LogNet: This platform little endian=1
+[2022.08.13-06.23.20:503][496]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2022.08.13-06.23.20:509][497]LogNet: Login request: ?Name=Razorback007-2E9CB0464BA9F47FA397AF975EDCBEDD userId: NULL:Razorback007-2E9CB0464BA9F47FA397AF975EDCBEDD platform: NULL
+[2022.08.13-06.23.20:510][497]LogNet: Welcomed by server (Level: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel, Game: /Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C)
+[2022.08.13-06.23.20:510][497]LogLoad: LoadMap: 127.0.0.1:17777/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel?game=/Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C
+[2022.08.13-06.23.20:510][497]LogWorld: BeginTearingDown for /Temp/Untitled_25
+[2022.08.13-06.23.20:510][497]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.23.20:510][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.23.20:576][497]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.13-06.23.20:579][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.08.13-06.23.20:587][497]LogAudio: Display: Audio Device (ID: 26) registered with world 'TestingLevel'.
+[2022.08.13-06.23.20:587][497]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.23.20:587][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.23.20:587][497]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2022.08.13-06.23.20:588][497]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_1_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.23.20
+[2022.08.13-06.23.20:588][497]LogWorld: Bringing up level for play took: 0.000968
+[2022.08.13-06.23.20:589][497]LogLoad: Took 0.078702 seconds to LoadMap(/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel)
+[2022.08.13-06.23.20:597][498]LogNet: Client netspeed is 100000
+[2022.08.13-06.23.20:597][498]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=Razorback007-2E9CB0464BA9F47FA397AF975EDCBEDD?SplitscreenCount=1
+[2022.08.13-06.23.20:598][498]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.23.20:600][498]LogNet: Join succeeded: Razorback007-2E9CB04
+[2022.08.13-06.23.20:600][498]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63588
+[2022.08.13-06.23.20:600][498]LogHandshake: SendConnectChallenge. Timestamp: 1.320643, Cookie: 017091246230013232052063146201041232108219200172242013098068
+[2022.08.13-06.23.20:603][498]LogHandshake: SendChallengeResponse. Timestamp: 1.320643, Cookie: 017091246230013232052063146201041232108219200172242013098068
+[2022.08.13-06.23.20:684][499]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63588
+[2022.08.13-06.23.20:685][499]LogHandshake: SendChallengeAck. InCookie: 017091246230013232052063146201041232108219200172242013098068
+[2022.08.13-06.23.20:685][499]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63588
+[2022.08.13-06.23.20:685][499]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.08.13-06.23.20:685][499]LogNet: NotifyAcceptedConnection: Name: TestingLevel, TimeStamp: 08/13/22 03:23:20, [UNetConnection] RemoteAddr: 127.0.0.1:63588, Name: IpConnection_51, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.23.20:685][499]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63588, Name: IpConnection_51, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.23.20:689][499]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_49, Driver: PendingNetDriver IpNetDriver_38, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.08.13-06.23.20:709][500]LogNet: NotifyAcceptingChannel Control 0 server World /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel.TestingLevel: Accepted
+[2022.08.13-06.23.20:709][500]LogNet: Remote platform little endian=1
+[2022.08.13-06.23.20:709][500]LogNet: This platform little endian=1
+[2022.08.13-06.23.20:710][500]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.23.20:713][500]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2022.08.13-06.23.20:730][501]LogNet: Login request: ?Name=Razorback007-729721744E29EED4D9547798651068AC userId: NULL:Razorback007-729721744E29EED4D9547798651068AC platform: NULL
+[2022.08.13-06.23.20:734][501]LogNet: Welcomed by server (Level: /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel, Game: /Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C)
+[2022.08.13-06.23.20:734][501]LogLoad: LoadMap: 127.0.0.1:17777/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel?game=/Game/CrazyPeople/BluePrint/BP_ThirdPerson_GameMode.BP_ThirdPerson_GameMode_C
+[2022.08.13-06.23.20:734][501]LogWorld: BeginTearingDown for /Temp/Untitled_26
+[2022.08.13-06.23.20:734][501]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.23.20:735][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.23.20:804][501]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.13-06.23.20:807][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.08.13-06.23.20:813][501]LogAudio: Display: Audio Device (ID: 27) registered with world 'TestingLevel'.
+[2022.08.13-06.23.20:813][501]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.13-06.23.20:813][501]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.13-06.23.20:814][501]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2022.08.13-06.23.20:815][501]LogWorld: Bringing World /Game/CrazyPeople/Maps/UEDPIE_2_TestingLevel.TestingLevel up for play (max tick rate 0) at 2022.08.13-03.23.20
+[2022.08.13-06.23.20:815][501]LogWorld: Bringing up level for play took: 0.001165
+[2022.08.13-06.23.20:816][501]LogLoad: Took 0.080825 seconds to LoadMap(/Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel)
+[2022.08.13-06.23.20:829][502]LogNet: Client netspeed is 100000
+[2022.08.13-06.23.20:829][502]LogNet: Join request: /Game/ThirdPerson/Maps/ThirdPersonMap?Name=Razorback007-729721744E29EED4D9547798651068AC?SplitscreenCount=1
+[2022.08.13-06.23.20:829][502]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.23.20:830][502]LogNet: Join succeeded: Razorback007-7297217
+[2022.08.13-06.23.20:833][502]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.23.20:974][505]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.23.21:644][545]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.08.13-06.23.27:866][932]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.27:866][932]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.08.13-06.23.27:866][932]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.08.13-06.23.32:601][222]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.32:601][222]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.33:342][266]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.33:342][266]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.34:686][345]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.34:686][345]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.35:919][418]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.35:919][418]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.37:122][487]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.37:122][487]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.37:123][487]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.37:123][487]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.38:727][584]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.38:727][584]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.38:729][584]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.38:729][584]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.39:651][640]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.39:651][640]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.39:653][640]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.39:653][640]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.40:965][723]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.40:965][723]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.40:966][723]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.40:966][723]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.41:267][742]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.41:267][742]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.42:094][794]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.42:094][794]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.48:201][173]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.48:201][173]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.49:174][231]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.49:174][231]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.50:152][290]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.50:153][290]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.50:154][290]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.50:154][290]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.50:692][323]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.50:692][323]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.50:694][323]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.50:694][323]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.51:224][355]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.51:224][355]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.51:226][355]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.51:226][355]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.51:818][393]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.51:818][393]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.51:819][393]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.51:820][393]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.52:425][432]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.52:425][432]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.53:070][473]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.08.13-06.23.53:070][473]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.08.13-06.23.53:483][499]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.08.13-06.23.53:483][499]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.08.13-06.23.54:206][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.23.54:206][542]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_2_TestingLevel
+[2022.08.13-06.23.54:207][542]LogSlate: Window 'CrazyPeople Preview [NetMode: Client 2]  (64-bit/SM5)' being destroyed
+[2022.08.13-06.23.54:209][542]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.23.54:210][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.23.54:216][542]LogNet: World NetDriver shutdown IpNetDriver_38 [GameNetDriver]
+[2022.08.13-06.23.54:216][542]LogNet: DestroyNamedNetDriver IpNetDriver_38 [GameNetDriver]
+[2022.08.13-06.23.54:216][542]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_49, Driver: GameNetDriver IpNetDriver_38, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-729721744E29EED4D9547798651068AC, Channels: 21, Time: 2022.08.13-06.23.54
+[2022.08.13-06.23.54:216][542]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_49, Driver: GameNetDriver IpNetDriver_38, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-729721744E29EED4D9547798651068AC
+[2022.08.13-06.23.54:216][542]LogExit: GameNetDriver IpNetDriver_38 shut down
+[2022.08.13-06.23.54:217][542]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_1_TestingLevel
+[2022.08.13-06.23.54:217][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.23.54:217][542]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.23.54:218][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.23.54:229][542]LogNet: World NetDriver shutdown IpNetDriver_37 [GameNetDriver]
+[2022.08.13-06.23.54:229][542]LogNet: DestroyNamedNetDriver IpNetDriver_37 [GameNetDriver]
+[2022.08.13-06.23.54:229][542]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_48, Driver: GameNetDriver IpNetDriver_37, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-2E9CB0464BA9F47FA397AF975EDCBEDD, Channels: 21, Time: 2022.08.13-06.23.54
+[2022.08.13-06.23.54:229][542]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_48, Driver: GameNetDriver IpNetDriver_37, IsServer: NO, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-2E9CB0464BA9F47FA397AF975EDCBEDD
+[2022.08.13-06.23.54:230][542]LogExit: GameNetDriver IpNetDriver_37 shut down
+[2022.08.13-06.23.54:231][542]LogWorld: BeginTearingDown for /Game/CrazyPeople/Maps/UEDPIE_0_TestingLevel
+[2022.08.13-06.23.54:231][542]LogWorld: UWorld::CleanupWorld for TestingLevel, bSessionEnded=true, bCleanupResources=true
+[2022.08.13-06.23.54:231][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.23.54:232][542]LogNet: World NetDriver shutdown IpNetDriver_36 [GameNetDriver]
+[2022.08.13-06.23.54:232][542]LogNet: DestroyNamedNetDriver IpNetDriver_36 [GameNetDriver]
+[2022.08.13-06.23.54:232][542]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63588, Name: IpConnection_51, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-729721744E29EED4D9547798651068AC
+[2022.08.13-06.23.54:232][542]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63588, Name: IpConnection_51, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-729721744E29EED4D9547798651068AC, Channels: 21, Time: 2022.08.13-06.23.54
+[2022.08.13-06.23.54:232][542]LogNet: UNetConnection::Close: CloseReason:
+[2022.08.13-06.23.54:232][542]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.08.13-06.23.54:232][542]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63588, Name: IpConnection_51, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_1, Owner: BP_PlayerController_CrazyPeople_C_1, UniqueId: NULL:Razorback007-729721744E29EED4D9547798651068AC
+[2022.08.13-06.23.54:232][542]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:63587, Name: IpConnection_50, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-2E9CB0464BA9F47FA397AF975EDCBEDD
+[2022.08.13-06.23.54:232][542]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63587, Name: IpConnection_50, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-2E9CB0464BA9F47FA397AF975EDCBEDD, Channels: 21, Time: 2022.08.13-06.23.54
+[2022.08.13-06.23.54:232][542]LogNet: UNetConnection::Close: CloseReason:
+[2022.08.13-06.23.54:232][542]LogNet:  - Result=Cleanup, ErrorContext="Cleanup"
+[2022.08.13-06.23.54:232][542]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63587, Name: IpConnection_50, Driver: GameNetDriver IpNetDriver_36, IsServer: YES, PC: BP_PlayerController_CrazyPeople_C_0, Owner: BP_PlayerController_CrazyPeople_C_0, UniqueId: NULL:Razorback007-2E9CB0464BA9F47FA397AF975EDCBEDD
+[2022.08.13-06.23.54:232][542]LogExit: GameNetDriver IpNetDriver_36 shut down
+[2022.08.13-06.23.54:233][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.13-06.23.54:242][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.13-06.23.54:314][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.13-06.23.54:315][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.08.13-06.23.54:317][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.08.13-06.23.54:321][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.08.13-06.23.54:322][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.08.13-06.23.54:332][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.08.13-06.23.54:368][543]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2022.08.13-06.23.54:369][543]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2022.08.13-06.23.54:369][543]LogPlayLevel: Display: Destroying online subsystem :Context_51
